@@ -3,11 +3,70 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nethery Ranch | Premium Sypan Goats — Junction, Texas</title>
-<!-- Your original head content here -->
+<title>Nethery Ranch | Premium Spanish Goats — Junction, Texas</title>
+<meta name="description" content="Nethery Ranch is a family-owned ranch in Junction, Texas raising premium Spanish goats for meat production, breeding, and herd improvement.">
+<meta name="keywords" content="Spanish goats, Texas goats for sale, meat goats in Texas, goat breeder Texas, Junction Texas livestock">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --forest:#1f2e22;
+    --forest-deep:#141f18;
+    --forest-mid:#2b402f;
+    --tan:#c9a97a;
+    --cream:#f6f1e6;
+    --gold:#b8934a;
+    --black:#15120e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',sans-serif;background:var(--cream);color:#211c15;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 1.5rem;}
+  .hero{min-height:100vh;background:linear-gradient(rgba(20,31,24,0.6),rgba(20,31,24,0.9)), url('https://picsum.photos/id/1015/1920/1080') center/cover;display:flex;align-items:flex-end;color:white;padding-bottom:4rem;}
+  .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;}
+  .g-item{border-radius:12px;overflow:hidden;cursor:pointer;}
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;}
+  @media(max-width:768px){
+    .contact-grid{grid-template-columns:1fr;}
+    .gallery-grid{grid-template-columns:1fr;}
+    .hero h1{font-size:2.2rem;}
+  }
+</style>
 </head>
 <body>
-<!-- Paste your full original body here -->
-<!-- Then replace the location block and add mobile CSS -->
+
+<header>
+  <div class="wrap" style="display:flex;justify-content:space-between;align-items:center;padding:1rem 0;">
+    <div style="font-family:'Fraunces',serif;font-size:1.5rem;">Nethery Ranch</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1 style="font-size:3.5rem;line-height:1.05;margin-bottom:1rem;">Premium Spanish Goats</h1>
+    <p style="font-size:1.3rem;max-width:600px;">Raised with care in the Texas Hill Country</p>
+  </div>
+</section>
+
+<section style="padding:4rem 0;background:white;">
+  <div class="wrap">
+    <h2 style="text-align:center;margin-bottom:2rem;">Our Location</h2>
+    <p style="text-align:center;font-size:1.2rem;"><strong>288 US Hwy 83S</strong><br>Junction, TX 76849</p>
+  </div>
+</section>
+
+<section class="gallery" style="padding:4rem 0;background:#1f2e22;color:white;">
+  <div class="wrap">
+    <h2 style="text-align:center;color:white;margin-bottom:2rem;">Gallery</h2>
+    <div class="gallery-grid">
+      <div class="g-item"><img src="https://picsum.photos/id/1015/800/600" alt="Goats 1"></div>
+      <div class="g-item"><img src="https://picsum.photos/id/133/800/600" alt="Goats 2"></div>
+    </div>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:2rem;background:#141f18;color:#aaa;">
+  © 2026 Nethery Ranch • Junction, Texas
+</footer>
+
 </body>
 </html>
